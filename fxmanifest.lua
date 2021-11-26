@@ -2,7 +2,6 @@ fx_version 'adamant'
 game 'gta5'
 description 'MenanAk47 - Optimized NPC Drugdealer'
 version '2.0'
-lua54 'yes'
 
 shared_scripts { 
     '@qb-core/import.lua',
