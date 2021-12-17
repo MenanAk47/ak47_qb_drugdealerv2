@@ -1,7 +1,6 @@
 Config = {}
 Config.Locale               = 'en'
 Config.PatreonEmail         = 'Your Patron Email'   --Take authentication with your patreon email.
-Config.SharedObjectName     = 'QBCore:GetObject'
 
 Config.StartSell            = 'start-sell'
 Config.StopSell             = 'stop-sell'

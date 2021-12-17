@@ -4,7 +4,6 @@ description 'MenanAk47 - Optimized NPC Drugdealer'
 version '2.0'
 
 shared_scripts { 
-    '@qb-core/import.lua',
     'config.lua'
 }
 

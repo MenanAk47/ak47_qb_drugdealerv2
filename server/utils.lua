@@ -1,11 +1,4 @@
-Citizen.CreateThread(function()
-    if QBCore == nil then
-        TriggerEvent(Config.SharedObjectName, function(obj) QBCore = obj end)
-    end
-    if QBCore == nil then
-        QBCore = exports['qb-core']:GetCoreObject()
-    end
-end)
+QBCore = exports['qb-core']:GetCoreObject()
 
 function GetItemLabel(item)
     return QBCore.Shared.Items[item].label
